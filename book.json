@@ -1,0 +1,66 @@
+{
+    "title": "开发笔记",
+    "author" : "xclidongbo",
+    "description" : "用于开发学习总结",
+    "language" : "zh-hans",
+    "structure": {
+        "readme": "README.md"
+    },
+    "pdf": {
+        "toc": true,
+        "pageNumbers": false,
+        "fontSize": 12,
+        "paperSize": "a4",
+        "margin": {
+            "right": 62,
+            "left": 62,
+            "top": 36,
+            "bottom": 36
+        }
+    },
+    "plugins": [
+        "-lunr", "-search", "search-pro",
+        "expandable-chapters","chapter-fold",
+        "back-to-top-button",
+        "code",
+        "advanced-emoji",
+        "github",
+        "-highlight","prism","prism-themes",
+        "hide-element",
+        "splitter",
+        "anchor-navigation-ex",
+        "lightbox",
+        "tbfed-pagefooter",
+        "anchors"
+
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "showGoTop": false
+        },
+        "github": {
+            "url": "https://github.com/xclidongbo"
+        },
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-material-dark.css"
+            ],
+            "lang": {
+                "flow": "typescript"
+            }
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "tbfed-pagefooter": {
+            "copyright":"@xclidongbo",
+            "modify_label": "该文件最后修改时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+
+}
