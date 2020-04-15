@@ -1,3 +1,4 @@
 *.mobi
 node_modules
 .git
+package-lock.json
