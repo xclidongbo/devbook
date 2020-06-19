@@ -31,3 +31,5 @@
   * [简介](doc/electron/README.md)
 * [iOS](doc/iOS/README.md)
   * [后台任务](doc/iOS/background_task.md)
+* [Android](doc/Android/README.md)
+* [kotlin](doc/kotlin/README.md)

@@ -6,6 +6,7 @@
 - `react-native`的`react`,`javascript`
 - `nodejs`
 - `electron`
+- `android`的`kotlin`
 
 
 > 注意: 虽然目标明确,可日常生活过于散漫,导致进程遥遥无期,也就是传说中的拖延症.希望此次能让病情有所缓解.
